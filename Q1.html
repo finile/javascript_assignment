@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <title>事件驅動 實作：電燈開關</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/Q1.css">
+  </head>
+
+  <body>
+    <table>
+      <tbody>
+        <tr>
+          <td rowspan="2">
+            <img id="image" src="img/on.jpg" width="500" height="600">            
+          </td>
+          <td>
+            <div class="div">Input time for timer:
+              <input type="text" id="inputtime">
+              <input type="button" value="倒數" onclick="timerSet()" class="timerseting">
+            </div>
+            <div class="div" id="timer" >Sec</div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <button class="button" onclick="toggleLight();">ON <br>-<br> OFF </button>
+          </td>
+        </tr>
+      </tbody>  
+    </table>
+    <script type="text/javascript" src="js/Q1.js"></script>
+  </body>
+</html>
